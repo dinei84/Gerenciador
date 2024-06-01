@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import HelloWord from './components/HelloWord'
+import TestoGigante from './components/TestoGigante'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <h1>Ola Mundo</h1>
+      <HelloWord/>
+      <TestoGigante/>
     </div>
   );
 }
