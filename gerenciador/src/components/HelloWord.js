@@ -2,7 +2,7 @@ function HelloWord(){
     
     return(
         <div>
-            <h1>HelloWord!!</h1>
+            <h1>Componente 1</h1>
         </div>
     )
 
