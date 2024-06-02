@@ -1,18 +1,12 @@
 import "./App.css";
-import HelloWord from './components/HelloWord'
-import TestoGigante from './components/TestoGigante'
-import OutroComponent from './components/OutroComponent'
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa'
 
 function App() {
   return (
     <div className="App">
-      <h1>Ola Mundo</h1>
-      <HelloWord/>
-      <TestoGigante/>
-      <div>
-      <OutroComponent/>
-    </div>
-    <TestoGigante/>
+      <SayMyName name='Dinei'/>
+      <Pessoa nome='Dinei' idade='40' profissao='Programador' img='https://via.placeholder.com/150'/>
     </div>
     
   );
