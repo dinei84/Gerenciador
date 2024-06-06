@@ -2,6 +2,7 @@ import "./App.css";
 import HelloWord from './components/HelloWord'
 import Evento from './components/Evento'
 import Form from './components/Form'
+import Pai from './components/Pai'
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Evento numero='2'/>
 
       <Form />
+
+     <Pai />
     </div>
   );
 }
