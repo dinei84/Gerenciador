@@ -1,0 +1,20 @@
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    
+
+}
+
+.item{
+    margin-right: 1em;
+    text-decoration: none;
+    font-size: 3em;
+    
+}
+
+/* .item:homer{
+    color: blue;
+} */
